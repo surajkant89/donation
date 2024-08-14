@@ -1,0 +1,160 @@
+body{
+    background-color:red;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.6em;
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: #333;
+    color:#fff
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow:hidden;
+
+}
+.quote{
+    text-align: center;
+    margin-top: 50px;
+}
+.container2{
+    text-align: center;
+    margin-top: 50px;
+}
+.container1{
+    width:100%;
+    margin-bottom: 100px;
+    overflow:hidden;
+}
+
+
+
+
+
+
+.donate {
+    background-color: black;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    margin-left: 45%;
+    transition: all 0.3s ease;
+}
+
+.donate:hover {
+    background-color: #ff4d4d;
+    color: #000;
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px; 
+}
+
+.donate:active {
+    background-color: #ff1e00; 
+    transform: scale(1.05);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 12px; 
+    transition: all 0.1s ease; 
+}
+
+
+
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: right; 
+}
+
+
+#navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+
+#navbar .container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: right;
+}
+
+
+#navbar ul li {
+    margin-right: 20px; 
+}
+
+
+.nav-links {
+    margin-left: auto; 
+}
+
+
+#navbar ul li a {
+    text-decoration: none; 
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+
+#navbar ul li a h1 {
+    margin: 0; 
+    font-size: 24px; 
+    color: #ff4d4d;
+}
+
+
+#navbar ul li a:hover {
+    color: #ff4d4d; 
+    transform: scale(1.1); 
+}
+
+
+#navbar ul li a:active {
+    color: #ff4d4d; 
+    transform: scale(0.95);
+}
+
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+#navbar{
+    background-color:#333;
+    color:#fff;
+}
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+#navbar li{
+    display:inline
+}
+#navbar a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+
+}
